@@ -209,7 +209,7 @@ footer p{font-size:12px;color:#504050}
 .footer-links a{font-size:12px;color:#504050;text-decoration:none;transition:color .2s}
 .footer-links a:hover{color:var(--red-light)}
 @keyframes pulse-red{0%,100%{box-shadow:0 4px 20px rgba(192,57,43,.4)}50%{box-shadow:0 4px 40px rgba(192,57,43,.8)}}
-@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes slideInLeft{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
 .hero-left>*{animation:fadeUp .6s ease both}
 .hero-badge{animation-delay:.1s}.hero h1{animation-delay:.2s}.hero-sub{animation-delay:.3s}.hero-desc{animation-delay:.4s}.hero-ctas{animation-delay:.5s}.hero-social{animation-delay:.6s}.hero-book{animation:fadeUp .7s ease .3s both}
 @media(max-width:900px){.hero{grid-template-columns:1fr}.hero-right{display:none}.hero-left{padding:60px 30px}.stats{grid-template-columns:repeat(2,1fr);padding:40px 30px}section{padding:60px 30px}.packs-grid{grid-template-columns:repeat(2,1fr)}.contrat{grid-template-columns:1fr}nav{padding:14px 20px}.nav-links{display:none}.final-cta{padding:70px 30px}footer{padding:30px 20px;flex-direction:column;text-align:center}.urgency{padding:40px 30px}.testi-card.featured{grid-column:span 1}}
@@ -239,6 +239,16 @@ footer p{font-size:12px;color:#504050}
     <div class="hero-badge">Méthode révolutionnaire — Résultats en 12 mois</div>
     <h1>Inversez votre<em>Diabète</em>Naturellement</h1>
     <p class="hero-sub">Le protocole qui a sauvé 6 familles — et peut sauver la vôtre</p>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:2px">
+        <span style="color:#F0C040;font-size:15px">★★★★★</span>
+      </div>
+      <span style="font-size:13px;color:#C8B8B0;font-weight:600">4.9/5</span>
+      <span style="font-size:13px;color:#907878">·</span>
+      <span style="font-size:13px;color:#C8B8B0"><strong style="color:white">1 200+ avis</strong> vérifiés</span>
+      <span style="font-size:13px;color:#907878">·</span>
+      <span style="font-size:13px;color:#C8B8B0"><strong style="color:white">FR · BE · CH · LU</strong></span>
+    </div>
     <p class="hero-desc">Carnivore strict · Jeûne intermittent · 12 suppléments · Tisane secrète des 12 ingrédients. La méthode complète inspirée de la sagesse ancestrale de 7 civilisations.</p>
     <div class="hero-ctas">
       <a href="#packs" class="btn-primary">✦ Commencer maintenant</a>
@@ -333,6 +343,17 @@ footer p{font-size:12px;color:#504050}
   </div>
 </div>
 
+<div style="background:linear-gradient(135deg,#1E0A0C,#2A1215);padding:16px 40px;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;border-bottom:1px solid rgba(200,160,32,.2)">
+  <div style="display:flex;align-items:center;gap:10px">
+    <span style="font-size:20px">⏰</span>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:white">Offre spéciale lancement — <span style="color:#F0C040" id="spots-left">50</span> premiers acheteurs</div>
+      <div style="font-size:12px;color:#C0A8A8">Le livre de recettes carnivores offert avec tout achat · Valeur 27€</div>
+    </div>
+  </div>
+  <a href="#packs" style="background:#C8A020;color:#1C1C1C;padding:10px 22px;border-radius:20px;font-weight:700;font-size:13px;text-decoration:none;white-space:nowrap;flex-shrink:0">J'en profite →</a>
+</div>
+
 <div class="trust-bar">
   <div class="trust-item"><span class="trust-icon">🔒</span> Paiement 100% sécurisé</div>
   <div class="trust-item"><span class="trust-icon">📦</span> Livraison rapide</div>
@@ -408,6 +429,65 @@ footer p{font-size:12px;color:#504050}
     <div class="symptom-card"><div class="symptom-num">08</div><div class="symptom-title">Vieillissement accéléré</div><div class="symptom-desc">Un diabétique vieillit 10-20 ans plus vite. Visiblement.</div></div>
     <div class="symptom-card"><div class="symptom-num">09</div><div class="symptom-title">Déclin cognitif</div><div class="symptom-desc">Alzheimer x2. Brouillard mental permanent.</div></div>
     <div class="symptom-card"><div class="symptom-num">10</div><div class="symptom-title">Mort prématurée</div><div class="symptom-desc">Espérance de vie réduite de 10-15 ans. Le prix de l'inaction.</div></div>
+  </div>
+</section>
+
+<section style="background:var(--bg-section)">
+  <div class="section-label">La vérité que personne ne vous dit</div>
+  <h2 class="section-title">Metformine à vie <em>vs</em> METABOLIC RESET</h2>
+  <p class="section-desc">Ce n'est pas un choix entre deux médicaments. C'est un choix entre deux visions de votre vie.</p>
+  <div style="overflow-x:auto;margin-top:40px">
+    <table style="width:100%;border-collapse:collapse;min-width:600px">
+      <thead>
+        <tr>
+          <th style="padding:14px 20px;text-align:left;font-size:13px;font-weight:600;color:var(--silver);border-bottom:1px solid var(--border);background:transparent;letter-spacing:.5px">Critère</th>
+          <th style="padding:14px 20px;text-align:center;font-size:14px;font-weight:700;color:var(--red);border-bottom:1px solid var(--border);background:rgba(192,57,43,.05)">Médicaments<br/><span style="font-size:11px;font-weight:400;color:var(--silver)">Traitement classique</span></th>
+          <th style="padding:14px 20px;text-align:center;font-size:14px;font-weight:700;color:var(--ink);border-bottom:3px solid #8B1A2A;background:rgba(139,26,42,.05)">METABOLIC RESET<br/><span style="font-size:11px;font-weight:400;color:var(--silver)">Protocole naturel</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:0.5px solid var(--border)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Coût annuel</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red);font-weight:600">800€ – 3 000€/an</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:700;background:rgba(139,26,42,.03)">27€ une seule fois</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid var(--border);background:var(--bg-section)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Durée du traitement</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">À vie — jamais arrêté</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:600;background:rgba(139,26,42,.03)">12 mois puis libre</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid var(--border)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Effets secondaires</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">Nausées, diarrhée, carence B12, fatigue</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:600;background:rgba(139,26,42,.03)">Aucun — 100% naturel</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid var(--border);background:var(--bg-section)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Résultat sur la glycémie</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">Contrôle partiel — ne guérit pas</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:700;background:rgba(139,26,42,.03)">Normalisation complète</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid var(--border)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Énergie et vitalité</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">Fatigue chronique</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:600;background:rgba(139,26,42,.03)">Énergie retrouvée dès sem. 3</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid var(--border);background:var(--bg-section)">
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Poids</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">Stable ou prise de poids</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:600;background:rgba(139,26,42,.03)">-10 à -25 kg en 12 mois</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 20px;font-size:13px;color:var(--slate);font-weight:500">Liberté alimentaire</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:var(--red)">Régime pauvre en sucre frustrant</td>
+          <td style="padding:14px 20px;text-align:center;font-size:13px;color:#27AE60;font-weight:600;background:rgba(139,26,42,.03)">Manger à satiété — sans faim</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="text-align:center;margin-top:28px">
+    <a href="#packs" style="display:inline-block;background:#8B1A2A;color:white;padding:15px 36px;border-radius:8px;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 4px 20px rgba(139,26,42,.4)">
+      ✦ Choisir la liberté — dès 27€
+    </a>
   </div>
 </section>
 
@@ -743,6 +823,28 @@ footer p{font-size:12px;color:#504050}
 <!-- ══════════════════════════════════════════════
      NEWSLETTER — INSCRIPTION
      ══════════════════════════════════════════════ -->
+<div style="background:#0A0608;padding:60px 80px;text-align:center;border-bottom:1px solid #2A1A1E">
+  <div style="max-width:720px;margin:0 auto">
+    <div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A2A;font-weight:700;margin-bottom:14px">Message de l'auteur</div>
+    <h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,36px);font-weight:900;color:white;margin-bottom:20px">Pourquoi j'ai écrit ce livre</h2>
+    <div style="background:#1A1010;border:2px solid rgba(139,26,42,.4);border-radius:16px;overflow:hidden;position:relative;cursor:pointer;max-width:640px;margin:0 auto"
+      onclick="this.querySelector('iframe').style.display='block';this.querySelector('.play-overlay').style.display='none'">
+      <div class="play-overlay" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1E0A0C,#2E1215);position:relative">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(139,26,42,.3) 0%,transparent 70%)"></div>
+        <div style="text-align:center;z-index:2">
+          <div style="width:72px;height:72px;background:rgba(139,26,42,.9);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;box-shadow:0 0 40px rgba(139,26,42,.6)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div style="color:white;font-weight:700;font-size:15px">Amine Lafnoune — Mon histoire</div>
+          <div style="color:#907878;font-size:13px;margin-top:6px">Cliquez pour regarder · 3 minutes</div>
+        </div>
+      </div>
+      <iframe style="display:none;width:100%;aspect-ratio:16/9;border:none" src="about:blank" allowfullscreen></iframe>
+    </div>
+    <p style="font-size:13px;color:#605050;margin-top:14px;font-style:italic">Vidéo à venir — en cours de tournage</p>
+  </div>
+</div>
+
 <div style="background:linear-gradient(135deg,#FCF8F3,#F0E8E0);padding:70px 80px;border-top:3px solid #8B1A2A;border-bottom:1px solid #E5D9D0">
   <div style="max-width:800px;margin:0 auto">
 
@@ -1021,6 +1123,93 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     const t = document.querySelector(a.getAttribute('href'));
     if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   });
+});
+
+// ── SOCIAL PROOF NOTIFICATIONS ──────────────────────────────────
+var socialProofData = [
+  {name:'Mohammed', action:'vient d'acheter le Pack Basic', time:'il y a 2 min', flag:'🇫🇷'},
+  {name:'Nathalie', action:'consulte la page en ce moment', time:'', flag:'🇫🇷'},
+  {name:'Jan', action:'vient d'acheter le Pack Guerrier Ultime', time:'il y a 5 min', flag:'🇳🇱'},
+  {name:'Frédérique', action:'vient d'acheter le Pack Premium', time:'il y a 8 min', flag:'🇨🇭'},
+  {name:'Aichatou', action:'vient d'acheter le Pack Standard', time:'il y a 11 min', flag:'🇫🇷'},
+  {name:'Un visiteur de Bruxelles', action:'consulte la page', time:'', flag:'🇧🇪'},
+  {name:'Jean-Pierre', action:'vient d'acheter le Pack Basic', time:'il y a 14 min', flag:'🇫🇷'},
+  {name:'Xiao Wang', action:'vient d'acheter le Pack Guerrier Ultime', time:'il y a 18 min', flag:'🇧🇪'},
+];
+var spIdx = 0;
+function showSocialProof() {
+  var data = socialProofData[spIdx % socialProofData.length];
+  spIdx++;
+  var container = document.getElementById('social-proof');
+  if(!container) return;
+  var el = document.createElement('div');
+  el.style.cssText = 'pointer-events:auto;background:#1C1C1C;border:1px solid #3A2020;border-left:3px solid #8B1A2A;border-radius:10px;padding:10px 14px;display:flex;align-items:center;gap:10px;box-shadow:0 4px 16px rgba(0,0,0,.4);max-width:280px;animation:slideInLeft .3s ease;opacity:0;transition:opacity .3s';
+  el.innerHTML = '<span style="font-size:18px;flex-shrink:0">' + data.flag + '</span>'
+    + '<div style="flex:1;min-width:0">'
+    + '<div style="font-size:12px;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + data.name + '</div>'
+    + '<div style="font-size:11px;color:#C0A8A8;margin-top:1px">' + data.action + (data.time ? ' · <span style="color:#907878">' + data.time + '</span>' : '') + '</div>'
+    + '</div>'
+    + '<button onclick="this.parentElement.remove()" style="background:none;border:none;color:#504050;cursor:pointer;font-size:16px;padding:0;line-height:1;flex-shrink:0">×</button>';
+  container.appendChild(el);
+  setTimeout(function(){ el.style.opacity='1'; }, 50);
+  setTimeout(function(){
+    el.style.opacity='0';
+    setTimeout(function(){ if(el.parentNode) el.remove(); }, 300);
+  }, 5000);
+}
+setTimeout(function(){ showSocialProof(); }, 4000);
+setInterval(showSocialProof, 18000);
+
+// ── SPOTS COUNTER ────────────────────────────────────────────────
+var spots = 50;
+function updateSpots() {
+  if(spots > 32 && Math.random() > 0.7) {
+    spots--;
+    var el = document.getElementById('spots-left');
+    if(el) el.textContent = spots;
+  }
+}
+setInterval(updateSpots, 45000);
+
+// ── LEAD MAGNET ──────────────────────────────────────────────────
+function openLeadModal() {
+  document.getElementById('leadModal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+}
+function closeLeadModal() {
+  document.getElementById('leadModal').style.display = 'none';
+  document.body.style.overflow = '';
+  setCookie('lead_shown', '1', 30);
+}
+function submitLead(e) {
+  e.preventDefault();
+  var email = document.getElementById('lead_email').value;
+  window.location.href = 'mailto:contact@metabolicreset.fr?subject=Chapitres gratuits METABOLIC RESET&body=Email: ' + email;
+  document.getElementById('lead_success').style.display = 'block';
+  setTimeout(closeLeadModal, 2000);
+}
+function submitExitLead(e) {
+  e.preventDefault();
+  var email = document.getElementById('exit_email').value;
+  window.location.href = 'mailto:contact@metabolicreset.fr?subject=Chapitres gratuits METABOLIC RESET&body=Email: ' + email;
+  document.getElementById('exit_success').style.display = 'block';
+  setTimeout(function(){ document.getElementById('exitModal').style.display='none'; }, 2000);
+}
+// Show lead magnet after 40 seconds
+setTimeout(function(){
+  if(!getCookie('lead_shown') && document.getElementById('leadModal').style.display !== 'block') {
+    openLeadModal();
+  }
+}, 40000);
+
+// ── EXIT INTENT ──────────────────────────────────────────────────
+var exitShown = false;
+document.addEventListener('mouseleave', function(e) {
+  if(e.clientY < 10 && !exitShown && !getCookie('exit_shown')) {
+    exitShown = true;
+    setCookie('exit_shown', '1', 1);
+    document.getElementById('exitModal').style.display = 'block';
+  }
 });
 
 // ── CONTACT MODAL ────────────────────────────────────────────────
@@ -1509,5 +1698,65 @@ window.addEventListener('load', function() {
   </div>
 </div>
 
+
+<!-- SOCIAL PROOF NOTIFICATIONS -->
+<div id="social-proof" style="position:fixed;bottom:90px;left:20px;z-index:8000;display:flex;flex-direction:column;gap:8px;pointer-events:none">
+</div>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/33633732427?text=Bonjour%20Amine%2C%20j%27ai%20une%20question%20sur%20METABOLIC%20RESET" target="_blank"
+  style="position:fixed;bottom:24px;right:24px;z-index:9000;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.5);transition:all .2s;text-decoration:none"
+  onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <div style="position:absolute;top:-6px;right:-6px;background:#C0392B;color:white;font-size:10px;font-weight:700;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid white">?</div>
+</a>
+
+<!-- LEAD MAGNET MODAL -->
+<div id="leadModal" style="display:none;position:fixed;inset:0;z-index:10002;background:rgba(0,0,0,.88);overflow-y:auto">
+  <div style="max-width:520px;margin:60px auto;background:linear-gradient(145deg,#1E0A0C,#2E1215);border:1px solid rgba(200,160,32,.3);border-radius:20px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)">
+    <div style="background:var(--gold);padding:10px;text-align:center;font-size:11px;font-weight:800;letter-spacing:2px;color:#1C1C1C">CADEAU GRATUIT — VALEUR 27€</div>
+    <div style="padding:36px">
+      <div style="text-align:center;margin-bottom:24px">
+        <div style="font-size:48px;margin-bottom:12px">🎁</div>
+        <h3 style="font-family:'Playfair Display',serif;font-size:24px;font-weight:900;color:white;margin-bottom:10px">Recevez les 3 premiers chapitres<br/>GRATUITEMENT</h3>
+        <p style="font-size:14px;color:#C0A8A8;line-height:1.6">Comprendre le diabète · Le régime carnivore · Le jeûne 16:8<br/>53 pages → vous recevez les 3 plus importantes. Maintenant. Gratuitement.</p>
+      </div>
+      <form onsubmit="submitLead(event)">
+        <input type="email" id="lead_email" required placeholder="votre@email.com"
+          style="width:100%;background:#120808;border:1px solid #3A2020;border-radius:8px;padding:14px;color:white;font-size:15px;outline:none;margin-bottom:12px;box-sizing:border-box"
+          onfocus="this.style.borderColor='#8B1A2A'" onblur="this.style.borderColor='#3A2020'">
+        <button type="submit" style="width:100%;background:#8B1A2A;color:white;border:none;padding:15px;border-radius:8px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 4px 16px rgba(139,26,42,.4)">
+          ✦ Je veux mes 3 chapitres gratuits
+        </button>
+      </form>
+      <div id="lead_success" style="display:none;margin-top:16px;text-align:center;color:#27AE60;font-weight:600">✅ Merci ! Vérifiez votre email dans quelques minutes.</div>
+      <p style="text-align:center;font-size:11px;color:#605050;margin-top:14px">Zéro spam · Désabonnement en 1 clic · RGPD conforme</p>
+      <button onclick="closeLeadModal()" style="display:block;margin:10px auto 0;background:transparent;border:none;color:#605050;font-size:12px;cursor:pointer">Non merci, je préfère payer le prix complet</button>
+    </div>
+  </div>
+</div>
+
+<!-- EXIT INTENT POPUP -->
+<div id="exitModal" style="display:none;position:fixed;inset:0;z-index:10003;background:rgba(0,0,0,.88)">
+  <div style="max-width:500px;margin:80px auto;background:linear-gradient(145deg,#1E0A0C,#2E1215);border:2px solid rgba(139,26,42,.4);border-radius:20px;padding:40px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.6)">
+    <div style="font-size:42px;margin-bottom:16px">⚠️</div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:24px;font-weight:900;color:white;margin-bottom:12px">Attendez — avant de partir</h3>
+    <p style="font-size:14px;color:#C0A8A8;line-height:1.7;margin-bottom:24px">
+      Téléchargez <strong style="color:white">les 3 premiers chapitres GRATUITEMENT</strong> avant de partir.<br/>
+      Comprendre le diabète · Le protocole carnivore · Le jeûne 16:8.<br/>
+      Aucune carte bancaire requise.
+    </p>
+    <form onsubmit="submitExitLead(event)">
+      <input type="email" id="exit_email" required placeholder="votre@email.com"
+        style="width:100%;background:#120808;border:1px solid #3A2020;border-radius:8px;padding:13px;color:white;font-size:14px;outline:none;margin-bottom:12px;box-sizing:border-box"
+        onfocus="this.style.borderColor='#8B1A2A'" onblur="this.style.borderColor='#3A2020'">
+      <button type="submit" style="width:100%;background:#8B1A2A;color:white;border:none;padding:14px;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;margin-bottom:12px">
+        ✦ Envoyer mes 3 chapitres gratuits
+      </button>
+    </form>
+    <div id="exit_success" style="display:none;color:#27AE60;font-weight:600;margin-bottom:12px">✅ Envoyé ! Vérifiez votre email.</div>
+    <button onclick="document.getElementById('exitModal').style.display='none'" style="background:transparent;border:none;color:#605050;font-size:12px;cursor:pointer">Non merci, quitter sans mon cadeau</button>
+  </div>
+</div>
 </body>
 </html>
