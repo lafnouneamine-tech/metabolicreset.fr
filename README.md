@@ -1,2 +1,0 @@
-# metabolicreset.fr
-metabolicreset.fr
